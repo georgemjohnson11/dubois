@@ -52,7 +52,6 @@ INSTALLED_APPS = [
     # shuup
     'shuup.core',
     'shuup.admin',
-    'shuup.api',
     'shuup.addons',
     'shuup.default_tax',
     'shuup.front',
@@ -82,7 +81,6 @@ INSTALLED_APPS = [
     'shuup.gdpr',
     'shuup.tasks',
     'shuup.discounts',
-    'shuup_stripe',
 
     # external apps
     'bootstrap3',
@@ -93,7 +91,6 @@ INSTALLED_APPS = [
     'reversion',
     'registration',
     'rest_framework',
-    'rest_framework_swagger'
 ]
 
 MIDDLEWARE_CLASSES = [
